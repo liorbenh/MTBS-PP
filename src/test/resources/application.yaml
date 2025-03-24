@@ -11,7 +11,7 @@ spring:
     driverClassName: org.h2.Driver
   sql:
     init:
-      platform: mssql
+      platform: postgresql
   h2:
     console:
       enabled: true
@@ -19,4 +19,9 @@ spring:
     database: POSTGRESQL
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false

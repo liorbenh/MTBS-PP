@@ -3,6 +3,8 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+design_docs/diagrams/*.xml
+design_docs/diagrams/*.mermaid
 
 ### STS ###
 .apt_generated
